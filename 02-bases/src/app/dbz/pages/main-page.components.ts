@@ -17,6 +17,12 @@ export class MainPageComponents {
 },{
   name: 'Piccolo',
   power: 9000
-}]
+}];
+
+onNewCharacter( character: Character ): void {
+  console.log('MainPage');
+  console.log(character);
+
+}
 
 }
